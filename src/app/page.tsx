@@ -88,7 +88,7 @@ export default function Home() {
               <p className="mb-6 text-lg">
                 Explore Earth’s oceans and atmosphere with real-time data from the PACE mission.
               </p>
-              <Link href={'https://eyes.nasa.gov/apps/earth/?fbclid=IwZXh0bgNhZW0CMTAAAR2xZ5cD7sLzYpbaCeF4ztKEDZuyGPSKCDoiQOZZWrVdktI38FvPRAA7caU_aem_TSh5511xVrPCEZJGyd2vvg#/vital-signs/chlorophyll/chlorophyll-today'} className="bg-blue-500 hover:bg-blue-700 text-white py-3 px-6 rounded-full">
+              <Link href='https://eyes.nasa.gov/apps/earth/?fbclid=IwZXh0bgNhZW0CMTAAAR2xZ5cD7sLzYpbaCeF4ztKEDZuyGPSKCDoiQOZZWrVdktI38FvPRAA7caU_aem_TSh5511xVrPCEZJGyd2vvg#/vital-signs/chlorophyll/chlorophyll-today' className="bg-blue-500 hover:bg-blue-700 text-white py-3 px-6 rounded-full">
                 Explore Data
               </Link>
             </div>
