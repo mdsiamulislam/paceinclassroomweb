@@ -116,7 +116,8 @@ export default function Home() {
 
               <div className="flex gap-2.5 items-center pt-5">
                 <button className="bg-blue-500 text-dark-blue-900 rounded-lg py-1.5 px-3 shadow-blue-800 shadow-md hover:bg-white">
-                  Explore Data
+                  <link href='https://eyes.nasa.gov/apps/earth/?fbclid=IwZXh0bgNhZW0CMTAAAR2xZ5cD7sLzYpbaCeF4ztKEDZuyGPSKCDoiQOZZWrVdktI38FvPRAA7caU_aem_TSh5511xVrPCEZJGyd2vvg#/vital-signs/chlorophyll/chlorophyll-today'>
+                  Explore Data </link>
                 </button>
                 <button className="bg-white text-dark-blue-900 rounded-lg py-1.5 px-3 shadow-gray-800 shadow-md hover:bg-blue-500">
                   Lesson Plan
