@@ -73,7 +73,7 @@ const LearnAboutPACE = () => {
                         <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                             <h3 className="text-xl font-semibold mb-4 text-dark-blue-900">What is PACE?</h3>
                             <p className="text-gray-700 mb-4">
-                                The PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) mission aims to enhance our understanding of the Earth's oceans and atmosphere. By observing key components such as phytoplankton and aerosols, PACE provides essential data that helps scientists monitor environmental changes and their impacts on climate.
+                                The PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) mission aims to enhance our understanding of the Earths oceans and atmosphere. By observing key components such as phytoplankton and aerosols, PACE provides essential data that helps scientists monitor environmental changes and their impacts on climate.
                             </p>
                         </div>
 

@@ -2,8 +2,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-import video from '@/app/assets/video/vid.mp4'
-
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -140,7 +138,7 @@ export default function Home() {
                 <div key={index} className="bg-white p-6 shadow-lg rounded-lg">
                   <h3 className="text-xl text-dark-blue-900 font-bold mb-2">New Ocean Color Data Available</h3>
                   <p className="text-gray-600">
-                    Explore the latest ocean color data captured by the PACE mission's Ocean Color Instrument.
+                    Explore the latest ocean color data captured by the PACE missions Ocean Color Instrument.
                   </p>
                   <Link href={'#'} className="text-blue-500 mt-4 inline-block">Read More</Link>
                 </div>
