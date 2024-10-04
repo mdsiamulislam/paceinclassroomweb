@@ -26,7 +26,7 @@ const ExploreData = () => {
                 <div className="container mx-auto flex justify-between items-center py-4 px-4">
                     {/* Logo */}
                     <div className="text-2xl font-bold">
-                        <h3>Logo</h3>
+                        <h3>Blue Wave</h3>
                     </div>
 
                     {/* Desktop Links */}
@@ -112,7 +112,7 @@ const ExploreData = () => {
                             />
                         </div>
                         <Link href="/ocean-color-visualization"
-                            className="inline-block bg-dark-blue-900 text-white py-2 px-4 rounded hover:bg-dark-blue-700 transition-colors">
+                            className="inline-block bg-dark-blue-900 text-white py-2 px-4 rounded hover:bg-dark-blue-700 transition-colors my-16">
                             Explore Ocean Color Data
                         </Link>
                     </div>

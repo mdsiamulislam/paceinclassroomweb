@@ -11,22 +11,22 @@ const LessonPlans = () => {
 
     return (
         <div>
-            <header className="w-full bg-dark-blue-900 text-white shadow-lg z-50">
-                <div className="container mx-auto flex justify-between items-center py-4 px-6">
+             <header className="w-full bg-dark-blue-900 text-white shadow-md z-50">
+                <div className="container mx-auto flex justify-between items-center py-4 px-4">
                     {/* Logo */}
                     <div className="text-2xl font-bold">
-                        <h3>Logo</h3>
+                        <h3>Blue Wave</h3>
                     </div>
 
                     {/* Desktop Links */}
-                    <nav className="hidden md:flex space-x-12">
-                        <Link href="/" className="hover:text-gray-300 transition">Home</Link>
-                        <Link href="/xpData" className="hover:text-gray-300 transition">Explore Data</Link>
-                        <Link href="/lessonPlans" className="hover:text-gray-300 transition">Lesson Plans</Link>
-                        <Link href="/activitiesGames" className="hover:text-gray-300 transition">Activities & Games</Link>
-                        <Link href="/learnAboutPACE" className="hover:text-gray-300 transition">Learn About PACE</Link>
-                        <Link href="/teacherResources" className="hover:text-gray-300 transition">Teacher Resources</Link>
-                    </nav>
+                    <div className="hidden md:flex space-x-20">
+                        <Link href="/" className="hover:text-gray-300">Home</Link>
+                        <Link href="/xpData" className="hover:text-gray-300">Explore Data</Link>
+                        <Link href="/lessonPlans" className="hover:text-gray-300">Lesson Plans</Link>
+                        <Link href="/activitiesGames" className="hover:text-gray-300">Activities & Games</Link>
+                        <Link href="/learnAboutPACE" className="hover:text-gray-300">Learn About PACE</Link>
+                        <Link href="/teacherResources" className="hover:text-gray-300">Teacher Resources</Link>
+                    </div>
 
                     {/* Mobile Menu Button */}
                     <div className="md:hidden">
@@ -52,16 +52,15 @@ const LessonPlans = () => {
                 {/* Mobile Menu */}
                 {isOpen && (
                     <div className="md:hidden bg-dark-blue-900">
-                        <Link href="/" className="block py-2 px-4 hover:bg-gray-800 transition">Home</Link>
-                        <Link href="/xpData" className="block py-2 px-4 hover:bg-gray-800 transition">Explore Data</Link>
-                        <Link href="/lessonPlans" className="block py-2 px-4 hover:bg-gray-800 transition">Lesson Plans</Link>
-                        <Link href="/activitiesGames" className="block py-2 px-4 hover:bg-gray-800 transition">Activities & Games</Link>
-                        <Link href="/learnAboutPACE" className="block py-2 px-4 hover:bg-gray-800 transition">Learn About PACE</Link>
-                        <Link href="/teacherResources" className="block py-2 px-4 hover:bg-gray-800 transition">Teacher Resources</Link>
+                        <Link href="/" className="block py-2 px-4 hover:bg-gray-800">Home</Link>
+                        <Link href="/xpData" className="block py-2 px-4 hover:bg-gray-800">Explore Data</Link>
+                        <Link href="/lessonPlans" className="block py-2 px-4 hover:bg-gray-800">Lesson Plans</Link>
+                        <Link href="/activitiesGames" className="block py-2 px-4 hover:bg-gray-800">Activities & Games</Link>
+                        <Link href="/learnAboutPACE" className="block py-2 px-4 hover:bg-gray-800">Learn About PACE</Link>
+                        <Link href="/teacherResources" className="block py-2 px-4 hover:bg-gray-800">Teacher Resources</Link>
                     </div>
                 )}
             </header>
-
             <section className="bg-white py-16">
                 <div className="container mx-auto px-6">
                     <h2 className="text-4xl font-bold text-center mb-10 text-indigo-600">

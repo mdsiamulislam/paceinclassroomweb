@@ -15,7 +15,7 @@ const TeacherResources = () => {
                 <div className="container mx-auto flex justify-between items-center py-4 px-4">
                     {/* Logo */}
                     <div className="text-2xl font-bold">
-                        <h3>Logo</h3>
+                        <h3>Blue Wave</h3>
                     </div>
 
                     {/* Desktop Links */}
@@ -30,7 +30,7 @@ const TeacherResources = () => {
 
                     {/* Mobile Menu Button */}
                     <div className="md:hidden">
-                        <button onClick={toggleMenu} className="focus:outline-none" aria-label="Toggle Menu">
+                        <button onClick={toggleMenu} className="focus:outline-none">
                             <svg
                                 className="w-6 h-6"
                                 fill="none"
@@ -61,7 +61,6 @@ const TeacherResources = () => {
                     </div>
                 )}
             </header>
-
             <section className="bg-white py-12">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-bold text-center mb-10 text-dark-blue-900">
