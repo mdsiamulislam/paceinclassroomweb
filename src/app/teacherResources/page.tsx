@@ -15,7 +15,7 @@ const TeacherResources = () => {
                 <div className="container mx-auto flex justify-between items-center py-4 px-4">
                     {/* Logo */}
                     <div className="text-2xl font-bold">
-                        <h3>Blue Wave</h3>
+                        <h3>PACEview</h3>
                     </div>
 
                     {/* Desktop Links */}
