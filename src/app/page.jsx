@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container mx-auto flex justify-between items-center py-4 px-4">
           {/* Logo */}
           <div className="text-2xl font-bold">
-            <h3>Blue Wave</h3>
+            <h3>PACEview</h3>
           </div>
 
           {/* Desktop Links */}
@@ -75,7 +75,7 @@ export default function Home() {
         <section className="bg-hero bg-cover bg-center h-screen flex items-center justify-center text-white" id="heroSection">
           <div className="text-center bg-black bg-opacity-50 w-full h-full flex items-center justify-center">
             <div>
-              <h1 className="text-4xl font-bold mb-4">Welcome to PACE Mission</h1>
+              <h1 className="text-4xl font-bold mb-4">Welcome to PACEview</h1>
               <p className="mb-6 text-lg">
                 Explore Earths oceans and atmosphere with real-time data from the PACE mission.
               </p>
