@@ -23,7 +23,7 @@ export default function Home() {
     { href: '#heroSection', label: 'Home' },
     { href: '/xpData', label: 'Explore Data' },
     { href: '/lessonPlans', label: 'Lesson Plans' },
-    { href: '#', label: 'Activities & Games' },
+    { href: '/activitiesGames', label: 'Activities & Games' },
     { href: '/learnAboutPACE', label: 'Learn About PACE' },
     { href: '/teacherResources', label: 'Teacher Resources' },
   ];
@@ -194,7 +194,7 @@ export default function Home() {
               <div className="bg-gray-100 p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold mb-4 text-dark-blue-900">Background</h3>
                 <p className="text-gray-700">
-                The Plankton Aerosol Cloud ocean Ecosystem (PACE) mission, launched on February 8, 2024, enhances our understanding of Earths oceans and atmosphere. Equipped with the Ocean Color Instrument (OCI), SPEXone polarimeter, and HARP2, PACE collects crucial data on phytoplankton communities and aerosol interactions. NASA's open science policy ensures this data is publicly accessible, but its complexity can hinder understanding, especially among young learners. By creating engaging educational materials that simplify this data, we can enhance ocean literacy and inspire students to explore the vital role of oceans in global climate systems.
+                The Plankton Aerosol Cloud ocean Ecosystem (PACE) mission, launched on February 8, 2024, enhances our understanding of Earths oceans and atmosphere. Equipped with the Ocean Color Instrument (OCI), SPEXone polarimeter, and HARP2, PACE collects crucial data on phytoplankton communities and aerosol interactions. NASAs open science policy ensures this data is publicly accessible, but its complexity can hinder understanding, especially among young learners. By creating engaging educational materials that simplify this data, we can enhance ocean literacy and inspire students to explore the vital role of oceans in global climate systems.
                 </p>
               </div>
 
